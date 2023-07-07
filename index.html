@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h2 id="h2">Tic-Tac-Toe</h2>
+    <div id="game">
+        <div class="grid-cell" data-value="0"></div>
+        <div class="grid-cell" data-value="1"></div>
+        <div class="grid-cell" data-value="2"></div>
+        <div class="grid-cell" data-value="3"></div>
+        <div class="grid-cell" data-value="4"></div>
+        <div class="grid-cell" data-value="5"></div>
+        <div class="grid-cell" data-value="6"></div>
+        <div class="grid-cell" data-value="7"></div>
+        <div class="grid-cell" data-value="8"></div>
+    </div>
+    <div class="status" style="text-align: center;">
+        <h2 id="status" style="text-align: center; margin-top: 15px; color: darkred;">Game Status</h2>
+        <span class="current-player">Its X turn</span>
+    </div>
+    <div class="game-over" style="text-align: center;">
+        <span class="game-over-text"></span>
+    </div>
+   <div id="container" style="margin-top: 10px;">
+        <button class="glow-on-hover restart" id="btn"  type="button">Restart</button>
+    </div>
+   
+
+</body>
+<script src="./index.js"></script>
+
+</html>
